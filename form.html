@@ -9,35 +9,84 @@
 
 
 
-for (var i=1; i<=100; i++) 
-{
 
-	if(i % 3 == 0 && i % 5 ==0)
-	{
-		console.log("FizzBuzz");
-	}
+//*******this fizzbuzz runs fine
 
-	if(i%3 ==0){
-		console.log("Fizz");
+// for (var i=1; i<=100; i++) 
+// {
 
-	}
+// 	if(i % 3 == 0 && i % 5 ==0)
+// 	{
+// 		console.log("FizzBuzz");
+// 	}
 
-	else if(i%5==0){
-		console.log("Buzz");
-	}
+// 	if(i%3 ==0){
+// 		console.log("Fizz");
+
+// 	}
+
+// 	else if(i%5==0){
+// 		console.log("Buzz");
+// 	}
 
 
-	else{
+// 	else{
 
-		console.log(i);
-	}
+// 		console.log(i);
+// 	}
 
 	
   
+// }
+
+
+
+
+
+
+//this needs work and doesn't work*************
+
+// function checkYear{
+
+// 	if (input === 3)
+// 	{
+
+// 		alert("less")
+
+// 		}
+
+
+// 	else if (input > 3){
+
+// 		alert("greater")
+
+
+// 	}
+
+// 	else {
+
+// 		alert("something went wrong")
+// 	}
+// }
+
+
+
+//*******************
+//this runs fine
+
+var n = prompt("enter 1")
+
+n = parseInt(n);
+
+if (n === 1){
+
+	alert("hehe")
 }
 
+else {
 
-
+	alert("boo")
+}
 
 
 
@@ -47,7 +96,8 @@ for (var i=1; i<=100; i++)
 
 <body>
 
-<input type="text" id= "input">
+
+<input type="text" id= "input" placeholder="type something">
 <input type="submit" value="submit" onclick="checkYear();">
 
 
