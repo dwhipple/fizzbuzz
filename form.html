@@ -44,49 +44,52 @@
 
 
 
-//this needs work and doesn't work*************
-
-// function checkYear{
-
-// 	if (input === 3)
-// 	{
-
-// 		alert("less")
-
-// 		}
+//function works, just doesn't display
+//maybe set variable = document.getElementById and then play around with the names
 
 
-// 	else if (input > 3){
 
-// 		alert("greater")
+function checkYear(){
+
+	if (document.getElementById('yearin') === 3){
+				
+				alert("less")
+			}
 
 
-// 	}
+	else if (document.getElementById('yearin') > 3){
+		
 
-// 	else {
+		alert("greater")
+	}
 
-// 		alert("something went wrong")
-// 	}
-// }
+
+	
+
+	else {
+
+		alert("something went wrong")
+	}
+}
 
 
 
 //*******************
 //this runs fine
 
-var n = prompt("enter 1")
+// var n = prompt("enter 1")
 
-n = parseInt(n);
+// n = parseInt(n);
 
-if (n === 1){
+// if (n === 1){
 
-	alert("hehe")
-}
+// 	alert("hehe")
+// }
 
-else {
+// else {
 
-	alert("boo")
-}
+// 	alert("boo")
+// }
 
 
 
@@ -97,7 +100,7 @@ else {
 <body>
 
 
-<input type="text" id= "input" placeholder="type something">
+<input type="text" id= "yearin" placeholder="type something">
 <input type="submit" value="submit" onclick="checkYear();">
 
 
